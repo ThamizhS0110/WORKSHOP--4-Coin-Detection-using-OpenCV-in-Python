@@ -38,10 +38,10 @@ The Simple Blob Detector is configured using:
 
 Contours are extracted using OpenCV's `findContours()` function. Small contours are removed using an area threshold of **500 pixels**, and the remaining contours are considered detected coin regions.
 
+## output
+
+
 ## Result
 
 The program compares the number of coins detected using both methods. In the current notebook execution, **Blob Detection detected 0 coins**, while **Contour Detection detected 1 coin**.
 
-## Conclusion
-
-The project demonstrates how OpenCV image-processing techniques can be used for object detection and counting. By comparing Blob Detection and Contour Detection, the notebook shows how different computer-vision approaches can produce different detection results depending on image preprocessing and detection parameters.
